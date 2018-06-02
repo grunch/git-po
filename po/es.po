@@ -394,7 +394,7 @@ msgstr "no se pueden leer los contenidos actuales de '%s'"
 #: apply.c:3595
 #, c-format
 msgid "Failed to fall back on three-way merge...\n"
-msgstr "Fallo el merge en retroceso de tres-vías...\n"
+msgstr "Falló el merge en retroceso de tres-vías...\n"
 
 #: apply.c:3609
 #, c-format
@@ -1668,7 +1668,7 @@ msgstr "opción '%s' requiere un valor"
 #: diff.c:152
 #, c-format
 msgid "  Failed to parse dirstat cut-off percentage '%s'\n"
-msgstr "  Fallo al analizar dirstat porcentaje de corte '%s'\n"
+msgstr "  Falló al analizar dirstat porcentaje de corte '%s'\n"
 
 #: diff.c:157
 #, c-format
@@ -1721,13 +1721,13 @@ msgid ""
 "Failed to parse --dirstat/-X option parameter:\n"
 "%s"
 msgstr ""
-"Fallo al analizar parámetro de opción --dirstat/-X:\n"
+"Falló al analizar parámetro de opción --dirstat/-X:\n"
 "%s"
 
 #: diff.c:4424
 #, c-format
 msgid "Failed to parse --submodule option parameter: '%s'"
-msgstr "Fallo al analizar parámetro de opción --submodule: '%s'"
+msgstr "Falló al analizar parámetro de opción --submodule: '%s'"
 
 #: diff.c:5500
 msgid "inexact rename detection was skipped due to too many files."
@@ -2261,12 +2261,12 @@ msgstr "no se que hacer con %06o %s '%s'"
 #: merge-recursive.c:1186
 #, c-format
 msgid "Failed to merge submodule %s (not checked out)"
-msgstr "Fallo al fusionar el submódulo %s (no revisado)"
+msgstr "Falló al fusionar el submódulo %s (no revisado)"
 
 #: merge-recursive.c:1193
 #, c-format
 msgid "Failed to merge submodule %s (commits not present)"
-msgstr "Fallo al fusionar el submódulo %s (commits no presentes)"
+msgstr "Falló al fusionar el submódulo %s (commits no presentes)"
 
 #: merge-recursive.c:1200
 #, c-format
@@ -2292,7 +2292,7 @@ msgstr ""
 #: merge-recursive.c:1249
 #, c-format
 msgid "Failed to merge submodule %s (not fast-forward)"
-msgstr "Fallo al fusionar el submódulo %s (no es posible avance rápido)"
+msgstr "Falló al fusionar el submódulo %s (no es posible avance rápido)"
 
 #: merge-recursive.c:1250
 msgid "Found a possible merge resolution for the submodule:\n"
@@ -2322,7 +2322,7 @@ msgstr "Falló al fusionar el submódulo %s (fusiones múltiples encontradas)"
 
 #: merge-recursive.c:1321
 msgid "Failed to execute internal merge"
-msgstr "Fallo al ejecutar la fusión interna"
+msgstr "Falló al ejecutar la fusión interna"
 
 #: merge-recursive.c:1326
 #, c-format
@@ -4309,7 +4309,7 @@ msgstr "entrada de submódulo '%s' (%s) es un %s, no un commit"
 
 #: submodule.c:1069 builtin/branch.c:651 builtin/submodule--helper.c:1743
 msgid "Failed to resolve HEAD as a valid ref."
-msgstr "Fallo al resolver HEAD como un ref valido."
+msgstr "Falló al resolver HEAD como un ref valido."
 
 #: submodule.c:1373
 #, c-format
@@ -4525,7 +4525,7 @@ msgid ""
 "%%sPlease commit your changes or stash them before you switch branches."
 msgstr ""
 "Los cambios locales de los siguientes archivos serán sobrescritos por "
-"checkuot:\n"
+"checkout:\n"
 "%%sPor favor realiza un commit con los cambios o un stash antes de cambiar "
 "ramas."
 
@@ -5565,7 +5565,7 @@ msgstr "Línea mal formada: '%s'."
 #: builtin/am.c:576
 #, c-format
 msgid "Failed to copy notes from '%s' to '%s'"
-msgstr "Fallo al copiar notas de '%s' a '%s'"
+msgstr "Falló al copiar notas de '%s' a '%s'"
 
 #: builtin/am.c:602
 msgid "fseek failed"
@@ -5603,7 +5603,7 @@ msgstr "falló al crear el directorio '%s'"
 
 #: builtin/am.c:1018
 msgid "Failed to split patches."
-msgstr "Fallo al dividir parches."
+msgstr "Falló al dividir parches."
 
 #: builtin/am.c:1148 builtin/commit.c:351
 msgid "unable to write index file"
@@ -6241,7 +6241,7 @@ msgstr ""
 
 #: builtin/branch.c:181
 msgid "Update of config-file failed"
-msgstr "Fallo de actualización de config-file"
+msgstr "Falló de actualización de config-file"
 
 #: builtin/branch.c:212
 msgid "cannot use -a with -d"
@@ -7737,7 +7737,7 @@ msgstr "no es posible actualizar el índice temporal"
 
 #: builtin/commit.c:355
 msgid "Failed to update main cache tree"
-msgstr "Fallo al actualizar el cache principal del árbol"
+msgstr "Falló al actualizar el cache principal del árbol"
 
 #: builtin/commit.c:380 builtin/commit.c:403 builtin/commit.c:449
 msgid "unable to write new_index file"
@@ -9696,11 +9696,11 @@ msgstr "formato help no reconocido '%s'"
 
 #: builtin/help.c:94
 msgid "Failed to start emacsclient."
-msgstr "Fallo al iniciar emacsclient."
+msgstr "Falló al iniciar emacsclient."
 
 #: builtin/help.c:107
 msgid "Failed to parse emacsclient version."
-msgstr "Fallo al analizar la versión de emacsclient."
+msgstr "Falló al analizar la versión de emacsclient."
 
 #: builtin/help.c:115
 #, c-format
@@ -10389,7 +10389,7 @@ msgstr ""
 
 #: builtin/log.c:1318
 msgid "Failed to find exact merge base"
-msgstr "Fallo al encontrar una base de fusión exacta"
+msgstr "Falló al encontrar una base de fusión exacta"
 
 #: builtin/log.c:1329
 msgid "base commit should be the ancestor of revision list"
@@ -16233,12 +16233,12 @@ msgstr "No es posible hacer checkout al submódulo '$sm_path'"
 #: git-submodule.sh:284
 #, sh-format
 msgid "Failed to add submodule '$sm_path'"
-msgstr "Fallo al agregar el submódulo '$sm_path'"
+msgstr "Falló al agregar el submódulo '$sm_path'"
 
 #: git-submodule.sh:293
 #, sh-format
 msgid "Failed to register submodule '$sm_path'"
-msgstr "Fallo al registrar el submódulo '$sm_path'"
+msgstr "Falló al registrar el submódulo '$sm_path'"
 
 #: git-submodule.sh:354
 #, sh-format
@@ -17411,7 +17411,7 @@ msgstr ""
 #: git-send-email.perl:625
 #, perl-format
 msgid "Failed to opendir %s: %s"
-msgstr "Fallo al abrir directorio %s: %s"
+msgstr "Falló al abrir directorio %s: %s"
 
 #: git-send-email.perl:649
 #, perl-format
@@ -17440,7 +17440,7 @@ msgstr "No hay línea de subject en %s?"
 #: git-send-email.perl:683
 #, perl-format
 msgid "Failed to open for writing %s: %s"
-msgstr "Fallo al abrir para escritura %s: %s"
+msgstr "Falló al abrir para escritura %s: %s"
 
 #: git-send-email.perl:694
 msgid ""
@@ -17459,12 +17459,12 @@ msgstr ""
 #: git-send-email.perl:718
 #, perl-format
 msgid "Failed to open %s: %s"
-msgstr "Fallo al abrir %s: %s"
+msgstr "Falló al abrir %s: %s"
 
 #: git-send-email.perl:735
 #, perl-format
 msgid "Failed to open %s.final: %s"
-msgstr "Fallo al abrir %s.final: %s"
+msgstr "Falló al abrir %s.final: %s"
 
 #: git-send-email.perl:778
 msgid "Summary email is empty, skipping it\n"
@@ -17592,7 +17592,7 @@ msgstr ""
 #: git-send-email.perl:1530
 #, perl-format
 msgid "Failed to send %s\n"
-msgstr "Fallo al enviar %s\n"
+msgstr "Falló al enviar %s\n"
 
 #: git-send-email.perl:1533
 #, perl-format
